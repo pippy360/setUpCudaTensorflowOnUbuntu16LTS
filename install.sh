@@ -20,10 +20,6 @@ sudo cp -P cuda/include/cudnn.h /usr/local/cuda-8.0/include
 sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda-8.0/lib64/
 sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*
 
-
-
-git clone https://github.com/pippy360/workingFromDepthRepo.git
-cd workingFromDepthRepo
 sudo pip install tensorflow-1.4.0rc1-cp27-cp27mu-linux_x86_64.whl
 
 # install cuDNN v6.0
